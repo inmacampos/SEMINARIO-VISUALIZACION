@@ -31,37 +31,44 @@
           }
           h3 {
               font-family: Helvetica, sans-serif;
-              text-align: center;
-          }
-          h4 {
-              font-family: Helvetica, sans-serif;
               text-align: left;
+          }
+          p {
+            font-size: 0.6em;
+          }
+          section {
+            margin: 0 auto;
+            width: 72em;
           }
           .caja {
             display: flex;
           }
           .caja__texto {
-            flex-basis: 50%;
+            flex: 1;
+            text-align: justify;
+            margin-right: 2em;
+
+          }
+          .caja__texto p {
+            margin-top: 0;
           }
           .caja_grafico {
-            flex-basis: 50%;
-            justify-content: center;
+            flex: 0;
           }
       </style>
   </head>
 
   <body>
+    <section>
     <h1>¿Cuántos, qué marcas, cuándo y dónde se venden más neumáticos de manera online?</h1>
-    <h4>Nombre: Inma Campos</h4>
-    <h4>Url: <a
-    href="https://js-qcrxdd.stackblitz.io/">https://js-qcrxdd.stackblitz.io/</a></h4>
-    <h4>Fuente:  <a href="https://101neumaticos.es/">https://101neumaticos.es/</a></h4> 
+    <h3>Nombre: Inma Campos</h3>
+    <h3>Url: <a
+    href="https://js-qcrxdd.stackblitz.io/">https://js-qcrxdd.stackblitz.io/</a></h3>
+    <h3>Fuente:  <a href="https://101neumaticos.es/">https://101neumaticos.es/</a></h3> 
 
   <h2>RESUMEN</h2>
   <p>La base de datos utilizada en este trabajo es un histórico de un e-commerce que vende neumáticos por internet. La base de datos tiene 5000 elementos acumulados entre el año 2016 y el 2019. Como elementos la base de datos tiene el número de numáticos,la marca y el segmento de la marca, la facturación, la fecha e información acerca de la localización (Población, Provincia y CP).</p>
-  </br>
   <p>El obtejivo de este trabajo es analizar el número de neúmaticos más frecuente,  la marca y su segmento, la evolución de los pedidos durante un periodo de dos años, así como su distribución geoespacial.</p>
-  </br>
   <p>Me gustaría hace un análisis de como funciona el e-commerce.
     </br>
     Para ello se mostrará cual es el tipo de pedido más común,sindo dos y 4 la catidad de neumáticos más común. 
@@ -110,5 +117,7 @@ Este gráfico se ha realizado con tableau desktop.  </p>
 <h2>Localización de las ventas</h2>
 <p>Este gráfico esta realizado con Tableu usando una variable geoespacial (CP) y la variable ventas. </p>
 <a href="https://ibb.co/18KLbfq"><img src="https://i.ibb.co/BqjtwVZ/mapa.png" alt="mapa" border="0"></a>
+
+    </section>
   </body>
 </html>
